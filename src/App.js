@@ -1,8 +1,7 @@
 import React from "react";
-import Header from "./components/Header";
 import CovidInfo from "./components/CovidInfo";
 import MapboxGLMap from "./components/MapboxGLMap";
-
+import { useState } from "react";
 const styles = {
     overflow: 'hidden',
     display: 'flex',
@@ -10,9 +9,11 @@ const styles = {
 }
 
 function App() {
+    const [country, setCountry] = useState(null);
+
     return ( < div style = { styles } >
-        <CovidInfo/>
-        <MapboxGLMap/>
+        <CovidInfo setCountry={setCountry} />
+        <MapboxGLMap country={country}/>
         </div>
     );
 }

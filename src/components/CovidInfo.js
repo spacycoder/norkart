@@ -13,7 +13,7 @@ const styles = {
     color: 'white',
 };
 
-const CovidInfo = () => {
+const CovidInfo = (props) => {
     const [countries, setCountries] = useState(null);
 
     useEffect(() => {
@@ -39,7 +39,7 @@ const CovidInfo = () => {
     }
 
     const setCountry = (country) => {
-        console.log(country)
+        props.setCountry(country);
     }
 
     return (

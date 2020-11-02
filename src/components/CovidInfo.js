@@ -44,9 +44,10 @@ const CovidInfo = () => {
 
     return (
         <div style={styles} >
-            <div sytle={{position: 'sticky', height: '50px', padding: '20px'}}>Countries</div>
+            <div sytle={{position: 'sticky', height: '50px', padding: '20px'}}>Covid Cases</div>
             <div style={{ display: 'flex', flexFlow: 'column', overflowY: 'scroll', maxHeight: 'calc(100vh - 60px)', width:'100%'}}>
                 {countries.Countries.map(country => {
+                    console.log(country)
                     return <Country key={country.Country + country.Date} country={country} setCountry={setCountry}/>
                 }
                 )

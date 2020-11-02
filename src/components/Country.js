@@ -8,8 +8,8 @@ const styles = {
     margin: '10px 0',
     color: 'white',
     display: 'flex',
-    flexFlow: 'column',
-    justifyContent: 'flex-start',
+    flexFlow: 'row',
+    justifyContent: 'space-between',
     alignItems: 'flex-start',
     cursor: 'pointer'
 };
@@ -43,7 +43,8 @@ const Country = (props) => {
 
     return (
         <div style={styles} onClick={onCountryClicked}>
-            <span style={{fontSize: '16px', fontWeight: '500'}}>{props.country.Country}</span>
+            <span style={{fontSize: '16px', fontWeight: '500'}}>{props.country.Country}:</span>
+            <span style={{fontSize: '16px', fontWeight: '500'}}>{props.country.TotalConfirmed}</span>
         </div>
     );
 }

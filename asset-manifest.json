@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/webkurs2020-CICD-React/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/webkurs2020-CICD-React/static/js/main.7b3e1dcd.chunk.js",
-    "main.js.map": "/webkurs2020-CICD-React/static/js/main.7b3e1dcd.chunk.js.map",
-    "runtime-main.js": "/webkurs2020-CICD-React/static/js/runtime-main.89e14c0b.js",
-    "runtime-main.js.map": "/webkurs2020-CICD-React/static/js/runtime-main.89e14c0b.js.map",
-    "static/css/2.0a5b19c0.chunk.css": "/webkurs2020-CICD-React/static/css/2.0a5b19c0.chunk.css",
-    "static/js/2.70c14350.chunk.js": "/webkurs2020-CICD-React/static/js/2.70c14350.chunk.js",
-    "static/js/2.70c14350.chunk.js.map": "/webkurs2020-CICD-React/static/js/2.70c14350.chunk.js.map",
-    "index.html": "/webkurs2020-CICD-React/index.html",
-    "precache-manifest.bd9ee6ce9708a9a01e1b9e6340c03fc9.js": "/webkurs2020-CICD-React/precache-manifest.bd9ee6ce9708a9a01e1b9e6340c03fc9.js",
-    "service-worker.js": "/webkurs2020-CICD-React/service-worker.js",
-    "static/css/2.0a5b19c0.chunk.css.map": "/webkurs2020-CICD-React/static/css/2.0a5b19c0.chunk.css.map",
-    "static/css/main.5ecd60fb.chunk.css.map": "/webkurs2020-CICD-React/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.70c14350.chunk.js.LICENSE.txt": "/webkurs2020-CICD-React/static/js/2.70c14350.chunk.js.LICENSE.txt"
+    "main.css": "/norkart/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/norkart/static/js/main.5dc78b38.chunk.js",
+    "main.js.map": "/norkart/static/js/main.5dc78b38.chunk.js.map",
+    "runtime-main.js": "/norkart/static/js/runtime-main.67b1062b.js",
+    "runtime-main.js.map": "/norkart/static/js/runtime-main.67b1062b.js.map",
+    "static/css/2.0a5b19c0.chunk.css": "/norkart/static/css/2.0a5b19c0.chunk.css",
+    "static/js/2.70c14350.chunk.js": "/norkart/static/js/2.70c14350.chunk.js",
+    "static/js/2.70c14350.chunk.js.map": "/norkart/static/js/2.70c14350.chunk.js.map",
+    "index.html": "/norkart/index.html",
+    "precache-manifest.4a3595de2a74392f6e54b254f92b0055.js": "/norkart/precache-manifest.4a3595de2a74392f6e54b254f92b0055.js",
+    "service-worker.js": "/norkart/service-worker.js",
+    "static/css/2.0a5b19c0.chunk.css.map": "/norkart/static/css/2.0a5b19c0.chunk.css.map",
+    "static/css/main.5ecd60fb.chunk.css.map": "/norkart/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.70c14350.chunk.js.LICENSE.txt": "/norkart/static/js/2.70c14350.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.89e14c0b.js",
+    "static/js/runtime-main.67b1062b.js",
     "static/css/2.0a5b19c0.chunk.css",
     "static/js/2.70c14350.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.7b3e1dcd.chunk.js"
+    "static/js/main.5dc78b38.chunk.js"
   ]
 }
